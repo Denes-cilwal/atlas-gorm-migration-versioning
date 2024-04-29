@@ -29,6 +29,32 @@ Environment Setup
 
 Run the Server
 ## Start the server using the following command:
-- go run main.go ```
+- go run main.go
+```
+
+### Managing Migrations with Atlas
+
+Atlas is utilized here for efficient schema and migration management. 
+Below are the steps to install and use Atlas for your database management. 
+
+```bash
+Install Atlas 
+- curl -sSf https://atlasgo.sh | sh
+
+Migration Commands
+## Generate Migration File
+- atlas migrate diff --env gorm
+
+Check Migration Status
+## Before applying any changes, always check the migration status:
+- atlas migrate status --url "mysql://username:password@:port/dbname"
+
+Apply Migrations
+## Apply the migrations to update your database schema:
+- atlas migrate apply --url "mysql://username:password@:port/dbname"
+```
+
+
+
 
 
