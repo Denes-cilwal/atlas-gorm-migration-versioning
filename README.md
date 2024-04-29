@@ -1,3 +1,5 @@
+Automatic migration planning for GORM
+
 Clone the repo ```git@github.com:Denes-cilwal/atlas-gorm-migration-versioning.git``` <br>
 Install dependencies ```go mod download``` <br>
 Populate the .env file using the .env.sample file <br>
