@@ -29,6 +29,6 @@ Environment Setup
 
 Run the Server
 ## Start the server using the following command:
-- go run main.go
+- go run main.go ```
 
 
