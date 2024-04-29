@@ -12,6 +12,7 @@ type User struct {
 	Password       string `gorm:"not null" form:"password" json:"-"`
 	NewField       string `gorm:"size:255" json:"new_field"`
 	SecondNewField uint   `json:"second_new_field"`
+	ThridNewField  string `json:"third_new_field"`
 	Role           []UserRole
 }
 
