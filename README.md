@@ -1,11 +1,20 @@
-- Automatic migration planning for GORM
+# GORM Migration Versioning with Atlas
 
-Clone the repo ```git@github.com:Denes-cilwal/atlas-gorm-migration-versioning.git``` <br>
-Install dependencies ```go mod download``` <br>
-Populate the .env file using the .env.sample file <br>
-Run server: ```go run main.go``` <br>
+This repository provides an integrated solution for managing database migrations using GORM and Atlas. It simplifies the process of generating, applying, and tracking database migrations.
 
-Install atlas: ```curl -sSf https://atlasgo.sh | sh ``` <br>
-Generate migration file ```atlas migrate diff --env gorm``` <br>
-Check migration status ```atlas migrate status --url "mysql://username:password@:port/dbname"``` <br>
-Apply migration ```atlas migrate apply --url "mysql://username:password@:port/dbname"``` <br>
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- [Git](https://git-scm.com/)
+- [Go](https://golang.org/dl/)
+- [Curl](https://curl.se/) (for installing Atlas)
+
+## Installation
+
+### Clone the Repository
+
+To get started, clone the repository to your local machine:
+
+```bash
+git clone git@github.com:Denes-cilwal/atlas-gorm-migration-versioning.git
+cd atlas-gorm-migration-versioning
