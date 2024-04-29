@@ -1,4 +1,4 @@
-Automatic migration planning for GORM
+- Automatic migration planning for GORM
 
 Clone the repo ```git@github.com:Denes-cilwal/atlas-gorm-migration-versioning.git``` <br>
 Install dependencies ```go mod download``` <br>
